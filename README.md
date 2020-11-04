@@ -1,7 +1,7 @@
 # TicketBookingApplication_h2db
 SpringBoot_ticketBooking 
 
-1) Import project into eclipse 
+1) Import project into eclipse. Install STS (Standard edition) in eclipse marketplace to get Spring boot app 
 2) Run as Spring Boot App
 3) Go to browser and access http://localhost:8080/ticket/all
 4) It will retrieve inserted object from inmemory database.
@@ -24,3 +24,5 @@ To Insert data
 
 5) Post it
 6) now it wil create new record.
+
+In the same way I have created methods for GetTicket, DeleteTicket, PutTicket services also there. Please check in TicketController.java file
